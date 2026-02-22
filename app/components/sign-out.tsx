@@ -1,6 +1,6 @@
 "use client";
 
-import { signout } from "@/lib/register-actions";
+import { signout } from "@/lib/actions/register-actions";
 
 const SignOut = () => {
   const handleSignOut = async () => {

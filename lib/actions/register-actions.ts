@@ -3,7 +3,7 @@
 import { headers } from "next/headers";
 import { redirect } from "next/navigation";
 import * as z from "zod";
-import { auth } from "./auth";
+import { auth } from "../auth";
 
 const SignupFormSchema = z.object({
   name: z.string().trim().min(2, {

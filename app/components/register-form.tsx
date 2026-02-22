@@ -1,7 +1,7 @@
 "use client";
 
-import type { FormState } from "@/lib/register-actions";
-import { signup } from "@/lib/register-actions";
+import type { FormState } from "@/lib/actions/register-actions";
+import { signup } from "@/lib/actions/register-actions";
 import { useActionState } from "react";
 
 const initialState: FormState = {};
